@@ -10,4 +10,18 @@ cmds = [
 [start]
 cmd = "php artisan serve --host=0.0.0.0 --port=$PORT"
 
+[env]
+APP_NAME = "Laravel"
+APP_ENV = "production"
+APP_DEBUG = "false"
+APP_URL =enter_admin_url
+APP_KEY = "base64:ma1N8qqcf/qvsPytnbPoLuauq7VqkQwUJ6W8SHMCr/A="            # use `php artisan key:generate --show`
+
+DB_CONNECTION = "mysql"
+DB_HOST = "hopper.proxy.rlwy.net"
+DB_PORT = "36978"
+DB_DATABASE = "foodie"
+DB_USERNAME = "root"
+DB_PASSWORD = "FsaYtlFCGvUCxhLedgxnOrSmKftuLpCb"
+
 
